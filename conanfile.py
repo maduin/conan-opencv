@@ -33,6 +33,9 @@ class OpenCVConan(ConanFile):
         cmake.definitions["BUILD_DOCS"] = "OFF"
         cmake.definitions["BUILD_PERF_TESTS"] = "OFF"
         cmake.definitions["BUILD_TESTS"] = "OFF"
+        cmake.definitions["BUILD_opencv_java"] = "OFF"
+        cmake.definitions["BUILD_opencv_python2"] = "OFF"
+        cmake.definitions["BUILD_opencv_python3"] = "OFF"
 
         if self.settings.compiler == "gcc":
             cmake.definitions["ENABLE_PRECOMPILED_HEADERS"] = "OFF"
