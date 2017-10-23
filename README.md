@@ -1,2 +1,2 @@
 # conan-opencv
-Conan package recipe for the OpenCV library
+[Conan](https://conan.io) package recipe for the [OpenCV](https://opencv.org/) library
